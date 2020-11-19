@@ -1,11 +1,15 @@
 #include<stdio.h>
-int main()
+void main()
 {
 int i;
-if(i=1){
+scanf("%d",&i);
+if(i==1){
 printf("男生:");
 }
-else{
+else if（i==0）{
 printf("女生:");
+}
+ else{
+ printf("输入错误，请重新输入");  
 }
 }
