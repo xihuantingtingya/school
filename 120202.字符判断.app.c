@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
 char m;
-printf ("欢迎使用本程序!");
+printf ("欢迎使用本程序!\n");
 scanf ("%c",&m);
     switch (m){
     case 'w': printf("你在点击上键\n"); break;
