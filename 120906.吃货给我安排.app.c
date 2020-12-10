@@ -5,19 +5,19 @@ void main()
     printf("请输入:");
     char a[]="";
     scanf("%s",a);
-    if(strcmp(a,"春节"))
+    if(!strcmp(a,"春节"))
     {
         printf("给我安排饺子！",a);
     }
-    else if(strcmp(a,"端午节"))
+    else if(!strcmp(a,"端午节"))
     {
         printf("给我安排粽子！");
     }
-    else if(strcmp(a,"中秋节"))
+    else if(!strcmp(a,"中秋节"))
     {
         printf("给我安排月饼！");
     }
-    else if(strcmp(a,"元宵节"))
+    else if(!strcmp(a,"元宵节"))
     {
         printf("给我安排元宵！");
     }
